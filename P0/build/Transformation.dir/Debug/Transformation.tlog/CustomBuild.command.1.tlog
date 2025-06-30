@@ -1,0 +1,10 @@
+^E:\REPOSITORY\GAMES101\P0\CMAKELISTS.TXT
+setlocal
+D:\cmake-4.1.0-rc1-windows-x86_64\bin\cmake.exe -SE:/Repository/Games101/P0 -BE:/Repository/Games101/P0/build --check-stamp-file E:/Repository/Games101/P0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
