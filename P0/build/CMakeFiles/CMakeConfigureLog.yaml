@@ -1631,3 +1631,316 @@ events:
         - "D:/cmake-4.1.0-rc1-windows-x86_64"
         - "C:/Program Files (x86)/Transformation"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:4 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/eigen-3.4.0-output/Eigen3Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "E:/eigen-3.4.0-output/eigen3-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "E:/Repository/Games101/P0/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Repository/Games101/P0/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/TortoiseSVN/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/TortoiseSVN/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/Windows Performance Toolkit/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Lua/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Lua/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/cursor/resources/app/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/cursor/resources/app/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake-4.1.0-rc1-windows-x86_64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake-4.1.0-rc1-windows-x86_64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Python313/Scripts/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Python313/Scripts/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Python313/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Python313/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Launcher/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Programs/Python/Launcher/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Microsoft/WindowsApps/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Local/Microsoft/WindowsApps/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/Microsoft VS Code/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/Microsoft VS Code/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/.dotnet/tools/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/.dotnet/tools/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/go/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/go/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/.cursor/extensions/ms-python.debugpy-2025.8.0-win32-x64/bundled/scripts/noConfigScripts/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/.cursor/extensions/ms-python.debugpy-2025.8.0-win32-x64/bundled/scripts/noConfigScripts/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Roaming/Cursor/User/globalStorage/github.copilot-chat/debugCommand/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/74250/AppData/Roaming/Cursor/User/globalStorage/github.copilot-chat/debugCommand/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "D:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Lua"
+        - "D:\\Program Files\\nodejs\\"
+        - "d:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "D:\\cmake-4.1.0-rc1-windows-x86_64\\bin"
+        - "C:\\Users\\74250\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\74250\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\74250\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\74250\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Lua"
+        - "C:\\Users\\74250\\.dotnet\\tools"
+        - "C:\\Users\\74250\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\74250\\go\\bin"
+        - "c:\\Users\\74250\\.cursor\\extensions\\ms-python.debugpy-2025.8.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\74250\\AppData\\Roaming\\Cursor\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Transformation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake-4.1.0-rc1-windows-x86_64"
+        - "C:/Program Files (x86)/Transformation"
+...
